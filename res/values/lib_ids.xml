@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 滑动菜单列表 -->
+    <item name="front" type="id"/>
+    <item name="back" type="id"/>
+</resources>

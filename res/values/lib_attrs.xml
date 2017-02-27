@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SlideMenu">
+        <attr name="leftShadowWidth" format="dimension" />
+        <attr name="rightShadowWidth" format="dimension" />
+        <attr name="leftShadowDrawable" format="reference" />
+        <attr name="rightShadowDrawable" format="reference" />
+        <attr name="menuStyle" format="flags">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+        </attr>
+        <attr name="layout_role" format="enum">
+            <enum name="content" value="0" />
+            <enum name="leftMenu" value="1" />
+            <enum name="rightMenu" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="slideMenuStyle" format="reference" />
+
+    <declare-styleable name="SlideUpOpenWidget">
+        <attr name="coverImage" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PullToRefreshListView">
+        <attr name="noDataMsg" format="string" />
+    </declare-styleable>
+</resources>

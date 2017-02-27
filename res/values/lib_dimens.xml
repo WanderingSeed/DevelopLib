@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="list_popup_menu_width">200.0dip</dimen>
+    <dimen name="list_popup_menu_xoff">0dip</dimen>
+    <dimen name="list_popup_menu_yoff">0dip</dimen>
+
+</resources>

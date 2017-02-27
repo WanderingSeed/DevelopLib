@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileConfig>
+    <File name="log">
+        <isPrivate>false</isPrivate>
+        <isAsset>false</isAsset>
+        <isDir>true</isDir>
+        <editable>true</editable>
+        <tag>log dir</tag>
+    </File>
+    <File name="log.txt">
+        <isPrivate>false</isPrivate>
+        <isAsset>false</isAsset>
+        <isDir>false</isDir>
+        <editable>true</editable>
+        <tag>log file</tag>
+    </File>
+    <File name="test">
+        <isPrivate>false</isPrivate>
+        <isAsset>true</isAsset>
+        <isDir>true</isDir>
+        <editable>true</editable>
+        <tag>test dir</tag>
+    </File>
+    <File name="test.txt">
+        <isPrivate>false</isPrivate>
+        <isAsset>true</isAsset>
+        <isDir>false</isDir>
+        <editable>true</editable>
+        <tag>test file</tag>
+    </File>
+    <File name="private.txt">
+        <isPrivate>true</isPrivate>
+        <isAsset>true</isAsset>
+        <isDir>false</isDir>
+        <editable>false</editable>
+        <tag>private file</tag>
+    </File>
+    <File name="private">
+        <isPrivate>true</isPrivate>
+        <isAsset>true</isAsset>
+        <isDir>true</isDir>
+        <editable>false</editable>
+        <tag>private file</tag>
+    </File>
+</FileConfig>

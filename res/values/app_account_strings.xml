@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="account">记账</string>
+    <string name="add">添加</string>
+    <string name="more">更多</string>
+    <string name="export_data">导出</string>
+    <string name="import_data">导入</string>
+    <string name="transfer_record_list">转账记录</string>
+    <string name="total_transfer_in">总转入</string>
+    <string name="total_investment">总投入</string>
+    <string name="total_transfer_out">总转出</string>
+    <string name="transfer">转帐</string>
+    <string name="transfer_in">转入</string>
+    <string name="transfer_out">转出</string>
+    <string name="compute">计算</string>
+    <string name="transfer_type">转账类型</string>
+    <string name="money">金额</string>
+    <string name="date">日期</string>
+    <string name="submit">提交</string>
+    <string name="msg_data_import_now">正在导入数据。。。</string>
+    <string name="msg_data_export_now">正在导出数据。。。</string>
+    <string name="msg_data_import_success">数据导入成功！</string>
+    <string name="msg_data_import_fail">数据导入失败！</string>
+    <string name="msg_data_export_success">数据导出成功！</string>
+    <string name="msg_data_export_fail">数据导出失败！</string>
+    <string name="msg_add_success">添加成功！</string>
+    <string name="msg_add_fail">添加失败！</string>
+    <string name="msg_value_can_not_be_zero">金额不能为零！</string>
+    <string name="date_picker">时间选择器</string>
+    <string name="gain">盈利</string>
+    <string name="loss">亏损</string>
+    <string name="zero">0</string>
+    <string name="percent">百分比</string>
+    <string name="two_percent">2%</string>
+    <string name="three_percent">3%</string>
+    <string name="four_percent">4%</string>
+    <string name="five_percent">5%</string>
+    <string name="six_percent">6%</string>
+    <string name="eight_percent">8%</string>
+    <string name="ten_percent">10%</string>
+
+</resources>

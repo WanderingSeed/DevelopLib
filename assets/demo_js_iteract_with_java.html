@@ -1,0 +1,27 @@
+<html>
+
+<head>
+<meta charset="UTF-8"> 
+</head>
+
+<script type="text/javascript">
+function updateHtml(){
+    document.getElementById("clickArea").innerHTML = "你通过 android中的代码调用了html中js的方法";
+}
+function updateHtmlw(){
+    document.getElementById("clickArea").innerHTML = "你通过 html中的代码调用了html中js的方法";
+}
+</script>
+
+<body>
+<div id="clickArea" style="margin:30px;width:200px;height:100px;background-color:green;text-align:center;">
+通过 调用java方法来调用html中的方法
+</div>
+<a href="javascript:updateHtmlw()" style="margin-left:30px;text-align:center;">通过 html调用html中的方法</a>
+</body>
+
+<script type="text/javascript">
+    document.getElementById("clickArea").setAttribute("onclick","window.jsdemo.onClick()");
+</script>
+
+</html>

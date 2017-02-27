@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/add"/>
+    <item
+        android:id="@+id/action_more"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/action_compute"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"
+                android:title="@string/compute"/>
+            <item
+                android:id="@+id/action_export"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"
+                android:title="@string/export_data"/>
+            <item
+                android:id="@+id/action_import"
+                android:orderInCategory="100"
+                android:showAsAction="ifRoom"
+                android:title="@string/import_data"/>
+        </menu>
+    </item>
+
+</menu>

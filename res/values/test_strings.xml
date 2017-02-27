@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 界面标题名称 -->
+    <string name="attribute_test">属性测试</string>
+    <!-- 各种提示 -->
+    <string name="tip_see_the_log_in_logcat">具体详情可以查看Logcat</string>
+
+</resources>

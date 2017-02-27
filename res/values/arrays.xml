@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="context_tab_titles">
+        <item >工具</item>
+         <item >应用</item>
+    </string-array>
+</resources>
